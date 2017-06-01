@@ -158,19 +158,6 @@ a cite{font-style: normal; *cursor:pointer;}
 .layui-layedit-iframe iframe{display: block; width: 100%;}
 #LAY_layedit_code{overflow: hidden;}
 
-/** 表格修饰 **/
-.layui-table{width: 100%; margin: 10px 0; background-color: #fff;}
-.layui-table tr{transition: all .3s; -webkit-transition: all .3s;}
-.layui-table thead tr{background-color: #f2f2f2;}
-.layui-table th{text-align: left;}
-.layui-table th, .layui-table td{padding: 9px 15px; min-height: 20px; line-height: 20px; border: 1px solid #e2e2e2; font-size: 14px;}
-.layui-table[lay-even] tr:nth-child(even),
-.layui-table tr:hover{background-color: #f8f8f8;}
-
-.layui-table[lay-skin="line"], .layui-table[lay-skin="row"]{border: 1px solid #e2e2e2;}
-.layui-table[lay-skin="line"] th, .layui-table[lay-skin="line"] td{border: none; border-bottom: 1px solid #e2e2e2}
-.layui-table[lay-skin="row"] th, .layui-table[lay-skin="row"] td{border: none; border-right: 1px solid #e2e2e2}
-.layui-table[lay-skin="nob"] th, .layui-table[lay-skin="nob"] td{border: none;}
 
 /** 文件上传 **/
 .layui-upload-button{position: relative; display: inline-block; vertical-align: middle; min-width: 60px; height: 38px; line-height: 38px; border: 1px solid #DFDFDF; border-radius: 2px; overflow: hidden; background-color: #fff; color: #666;}

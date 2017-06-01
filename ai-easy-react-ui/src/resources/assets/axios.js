@@ -1,4 +1,4 @@
-var _= require('lodash-compat');
+var _= require('lodash');
 
 // var baseURL="http://10.19.9.27:8080/cb2_web";
 var baseURL="http://10.20.16.210:8200/cb2_web";

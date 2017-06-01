@@ -1,5 +1,5 @@
 const ENV = require('./env.config');
-const _ = require('lodash-compat');
+const _ = require('lodash');
 const routers = require('../router.js').routers;//路由配置
 const Config=require('../package.json').Config;
 

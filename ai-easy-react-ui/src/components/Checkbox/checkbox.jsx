@@ -6,7 +6,7 @@ import shallowEqual from 'shallowequal';
 import './style.scss'
 
 const THEMECLASS="layui";
-export default class Checkbox extends React.Component{
+export default class CheckBox extends React.Component{
     // static defaultProps = {
     //     THEMECLASS: 'ant-checkbox',
     //     indeterminate: false,

@@ -1,0 +1,13 @@
+/** 表格修饰 **/
+.layui-table{width: 100%; margin: 10px 0; background-color: #fff;}
+.layui-table tr{transition: all .3s; -webkit-transition: all .3s;}
+.layui-table thead tr{background-color: #f2f2f2;}
+.layui-table th{text-align: left;}
+.layui-table th, .layui-table td{padding: 9px 15px; min-height: 20px; line-height: 20px; border: 1px solid #e2e2e2; font-size: 14px;}
+.layui-table.layui-table-even tr:nth-child(even),
+.layui-table tr:hover{background-color: #f8f8f8;}
+
+.layui-table.layui-table-line, .layui-table.layui-table-row{border: 1px solid #e2e2e2;}
+.layui-table.layui-table-line th, .layui-table.layui-table-line td{border: none; border-bottom: 1px solid #e2e2e2}
+.layui-table.layui-table-row th, .layui-table.layui-table-row td{border: none; border-right: 1px solid #e2e2e2}
+.layui-table.layui-table-nob th, .layui-table.layui-table-nob td{border: none;}
