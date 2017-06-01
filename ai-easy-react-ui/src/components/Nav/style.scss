@@ -1,0 +1,7 @@
+/** 面包屑 **/
+.layui-breadcrumb{font-size: 0;}
+.layui-breadcrumb a{padding-right: 8px; line-height: 22px; font-size: 14px; color: #333 !important;}
+.layui-breadcrumb a:hover{color: #01AAED !important;}
+.layui-breadcrumb a span.layui-box,
+.layui-breadcrumb a cite{ color: #666; cursor: text; font-style: normal;}
+.layui-breadcrumb a span.layui-box{padding-left: 8px; font-family: Sim sun;}

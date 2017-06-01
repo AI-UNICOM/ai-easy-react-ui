@@ -1,0 +1,136 @@
+/* 复选框 */
+.layui-form-checkbox{display: inline-block; vertical-align: middle; line-height: 28px; margin: 6px 10px 0 0; padding-right: 10px; cursor: pointer; font-size: 0;}
+.layui-form-checkbox *{display: inline-block; vertical-align: middle;}
+.layui-form-checkbox  span{font-size: 14px;}
+
+
+
+.layui-checkbox {
+    outline: none;
+    line-height: 1;
+    margin-right: 8px;
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 28px;
+}
+.layui-checkbox-input {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    right: 0
+}
+.layui-checkbox-focused .layui-checkbox-inner,.layui-checkbox-wrapper:hover .layui-checkbox .layui-checkbox-inner,.layui-checkbox:hover .layui-checkbox-inner {
+    border-color: #5FB878
+}
+
+.layui-checkbox-inner {
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #5FB878;
+    background-color: #fff;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+
+.layui-checkbox-indeterminate .layui-checkbox-inner:after {
+    content: " ";
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    position: absolute;
+    left: 2px;
+    top: 5px;
+    width: 8px;
+    height: 1px
+}
+
+.layui-checkbox-checked .layui-checkbox-inner:after {
+    -webkit-transform: rotate(45deg) scale(1);
+    -ms-transform: rotate(45deg) scale(1);
+    transform: rotate(45deg) scale(1);
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    display: table;
+    width: 5px;
+    height: 8px;
+    border: 2px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    content: " ";
+    -webkit-transition: all .2s cubic-bezier(.12,.4,.29,1.46) .1s;
+    transition: all .2s cubic-bezier(.12,.4,.29,1.46) .1s
+}
+
+.layui-checkbox-checked .layui-checkbox-inner,.layui-checkbox-indeterminate .layui-checkbox-inner {
+    background-color: #5FB878;
+    border-color: #5FB878
+}
+
+.layui-checkbox-disabled.layui-checkbox-checked .layui-checkbox-inner:after {
+    -webkit-animation-name: none;
+    animation-name: none;
+    border-color: rgba(0,0,0,.25)
+}
+
+.layui-checkbox-disabled .layui-checkbox-input {
+    cursor: not-allowed
+}
+
+.layui-checkbox-disabled .layui-checkbox-inner {
+    border-color: #d9d9d9!important;
+    background-color: #f7f7f7
+}
+
+.layui-checkbox-disabled .layui-checkbox-inner:after {
+    -webkit-animation-name: none;
+    animation-name: none;
+    border-color: #f7f7f7
+}
+
+.layui-checkbox-disabled+span {
+    color: rgba(0,0,0,.25);
+    cursor: not-allowed
+}
+
+.layui-checkbox-wrapper {
+    cursor: pointer;
+    font-size: 12px;
+    display: inline-block
+}
+
+.layui-checkbox-wrapper:not(:last-child) {
+    margin-right: 8px
+}
+
+
+.layui-checkbox-group {
+    font-size: 12px
+}
+
+.layui-checkbox-group-item {
+    display: inline-block
+}
+
+@media \0screen {
+    .layui-checkbox-checked .layui-checkbox-inner:after,.layui-checkbox-checked .layui-checkbox-inner:before {
+        font-family: anticon;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: "\E632";
+        font-weight: 700;
+        font-size: 8px;
+        border: 0;
+        color: #fff;
+        left: 2px;
+        top: 3px;
+        position: absolute
+    }
+}
